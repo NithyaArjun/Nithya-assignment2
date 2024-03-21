@@ -13,6 +13,7 @@ public class Random1 {
 		Random ran = new Random();
 		
 		int randomnumber1 = ran.nextInt(100);
+		System.out.println(randomnumber1);
 		
 		GameTest test= new GameTest();
 		
@@ -28,6 +29,8 @@ public class Random1 {
 				System.out.println("Your guess is not between 1 and 100,please try again");
 				
 				System.out.println("Guess another number");
+				
+				i=i-1;
 			}
 			 else {
 				 
