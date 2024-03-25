@@ -7,7 +7,7 @@ public class GameTest {
 		
 		public void game(int randomnumber,int guessnumber ,int i) {
 				
-			if(i<=4) {
+			if(i<4) {
 			
 			 if(randomnumber == guessnumber)
 			{
